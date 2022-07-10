@@ -81,3 +81,27 @@ body {
     font-size:2em;
   }
 
+  /* Configuracion del header */
+  .header{
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position-x:0 ;
+    background-position-y:0 ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:650px;
+    padding-top:50px;
+    position:relative;
+  }
+  
+  .header h2 {
+    color:white;
+    text-shadow: #020819 8px -20px 9px;
+  }
+
+  .quote {
+    font-size: 2.5em;
+    position:absolute;
+    left:10%;
+    bottom:15vh;
+    
+  }
